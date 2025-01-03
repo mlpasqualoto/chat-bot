@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
       // Cria um parágrafo para cada linha, com espaçamento entre eles
       return paragraphs
-        .map((paragraph) => `<p style="margin: 10px 0; white-space: pre-line;">${paragraph.trim()}</p>`)
+        .map((paragraph) => `<p style="white-space: pre-line;">${paragraph.trim()}</p>`)
         .join("");
     };   
   

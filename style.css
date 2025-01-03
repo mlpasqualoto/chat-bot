@@ -36,8 +36,8 @@ header {
   display: flex;
   padding: 20px 0;
   flex-direction: column;
-  gap: 10px;
-  overflow-y: auto;
+  gap: 20px;
+  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
 }
 
 /* Define a largura da barra de rolagem */
@@ -80,6 +80,9 @@ header {
 .message.received {
   align-self: flex-start;
   background-color: red;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 #sendMessage {
