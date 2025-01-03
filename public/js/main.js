@@ -1,4 +1,4 @@
-import { getResponse } from "./src/req.js";
+import { getResponse } from "../../src/controllers/controllers.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const messagesContainer = document.getElementById("chat");

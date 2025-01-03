@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 import express from 'express';
 import cors from 'cors';
-import routes from './routes.js';
+import routes from './routes/routes.js';
 
 const app = express();
 const PORT = 5500;
